@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/flor.svg">
+    <meta name="theme-color" content="#0c6c8e">
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '449618966434431');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=449618966434431&ev=PageView&noscript=1"
+    /></noscript>
+    <title>Proactivo</title>
+    <link rel="stylesheet" href="styles/stilos.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <a href="index.html" class="nav__logo">
+                <img class="nav__logo" src="assets/img/Logotipo.svg" alt="logo">
+            </a>
+            <nav class="nav nav__menu">
+                <a href="#" class="nav__items">Contácto</a>
+                <a href="#" class="nav__items">Nosotros</a>
+                <a href="#" class="nav__items">Servicios</a>
+            </nav>
+            <button class="nav__ham" type="button">
+                <span class="br__1"></span>
+                <span class="br__2"></span>
+                <span class="br__3"></span>
+            </button>
+            <section class="hero__container">
+                <div class="hero__text">
+                    <h1 class="hero__title">Sin importar reportes en centrales!</h1>
+                    <h2 class="hero__subtitle">Cómodos plazos y aprobación oportuna</h2>
+                    <a href="#" class="hero__cta">Más información</a>
+                </div>
+
+            </section>
+        </div>
+        <div class="hero__wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C128.94,160.36 381.77,-63.64 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+    <main>
+        <section class="presentation container">
+            <img class="presentation__picture" src="assets/img/img7.jpg" alt="imagen">
+            <h2 class="subtitle">Tenemos las mejores experiencias para ti</h2>
+            <p class="presentation__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cum dignissimos sed libero quod illo ut eum ea totam itaque exercitationem, aliquam, minima qui soluta dolores, sapiente impedit maiores id.</p>
+            <a class="presentation__cta" href="#">Contáctanos</a>
+        </section>
+        <section class="about container">
+            <div class="about__text">
+                <h2 class="subtitle">Pensionados</h2>
+                <p class="about__parrafe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit laboriosam, esse ut atque minus sapiente totam incidunt, fugiat fuga asperiores eveniet natus vel quasi quia perspiciatis velit cum. Aperiam, ullam!</p>
+                <p class="about__parrafe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit laboriosam, esse ut atque minus sapiente totam incidunt, fugiat fuga asperiores eveniet natus vel quasi quia perspiciatis velit cum. Aperiam, ullam!</p>
+            </div>
+            <figure class="about__img">
+                <img src="assets/img/svg.svg" class="about__picture" alt="pensionados">
+            </figure>
+            <figure class="about__img about__img--left">
+                <img src="assets/img/img9.jpg" class="about__picture about__picture--left" alt="pensionados">
+            </figure>
+            <div class="about__text">
+                <h2 class="subtitle">Sobre nosotros</h2>
+                <p class="about__parrafe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit laboriosam, esse ut atque minus sapiente totam incidunt, fugiat fuga asperiores eveniet natus vel quasi quia perspiciatis velit cum. Aperiam, ullam!</p>
+                <p class="about__parrafe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit laboriosam, esse ut atque minus sapiente totam incidunt, fugiat fuga asperiores eveniet natus vel quasi quia perspiciatis velit cum. Aperiam, ullam!</p>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="container container--contacto">
+                <h2 class="subtitle subtitle--contacto">Ingresa tus datos</h2>
+                <p class="presentation__copy presentation__copy--contacto">Ingresa tus datos, pronto uno de nuestros asesores te contactará para brindarte toda la información que necesites.</p>
+                <div class="contacto__grid">
+                    <article class="contacto__item">
+                        <!-- <img src="assets/img/img7.jpg" class="contacto__img" alt="contacto"> -->
+                        <form action="#" class="formulario">
+                            <label class="label__input">Nombre:</label>
+                            <input type="text" placeholder="Tu nombre">
+                            <label class="label__input">Teléfono</label>
+                            <input type="text" placeholder="WhatsApp">
+                            <label class="label__input">Email:</label>
+                            <input type="text" placeholder="correo electrónico">
+                            <div class="contacto__seleccion">
+                                <label class="label__input">Ocupación</label>
+                                <select name="selecciona" class="ocupacion label__input" id="actividad">
+                                    <option style="font-size: 20px;"
+                                    class="option"
+                                    value="0">selecciona</option>
+                                    <option style="font-size: 20px;"
+                                    class="option"
+                                    value="1">Pensionado</option>
+                                    <option style="font-size: 20px;"
+                                    class="option"
+                                    value="2">Empleado público</option>
+                                </select>
+                            </div>
+                            <div class="empleado__publico">
+                                <input class="empleado" type="text" placeholder="Empleado de:">
+                            </div>
+                            <div class="fondo__pension">
+                                <label class="label__input">Pensionado de:</label>
+                                <select name="selecciona__fondo" class="label__input" id="fondo">
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="0">Selecciona</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="1">Colpensiones</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="2">Fopep</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="3">Fiduprevisora</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="4">Casur</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="5">Tegen</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="6">Cremil</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="7">Porvenir</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="8">Seguros Alfa</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="9">Colfondos</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="10">Protección</option>
+                                    <option style="font-size: 20px;"
+                                    class="option__fondo"
+                                    value="11">Otro</option>
+                                </select>
+                            </div>
+                            <div class="politica__pribacidad">
+                                <label class="label__input">Acepto <a class="politica" href="/Politica.html">politica de provacidad</a></label>
+                            <input type="checkbox" class="checkbox">
+                            </div>
+                            <button type="submit" class="hero__cta hero__cta--form">Enviar</button>
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="testimoni container">
+            <h2 class="subtitle">¿Que dicen de nosotros?</h2>
+            <div class="testimony__grid">
+                <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="assets/img/img9.jpg" alt="testimonio" class="testimony__img">
+                        <div class="testimony__text">
+                            <h3 class="testimony__name">Nombre</h3>
+                            <p class="testimony__verification">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <p class="testimony__rebew">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit debitis voluptate eligendi dignissimos impedit? Quae, pariatur! Suscipit non optio corrupti! Sapiente quaerat consequuntur hic repellendus illum quisquam quo adipisci nemo?</p>
+                </article>
+                <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="assets/img/img7.jpg" alt="testimonio" class="testimony__img">
+                        <div class="testimony__text">
+                            <h3 class="testimony__name">Nombre</h3>
+                            <p class="testimony__verification">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <p class="testimony__rebew">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit debitis voluptate eligendi dignissimos impedit? Quae, pariatur! Suscipit non optio corrupti! Sapiente quaerat consequuntur hic repellendus illum quisquam quo adipisci nemo?</p>
+                </article>
+            </div>
+        </section>
+    </main>
+<footer class="footer">
+    <div class="container footer__grid">
+        <nav class="navi navi--footer">
+            <a class="nav__items nav__items--footer" href="#">Privacidad</a>
+            <a class="nav__items nav__items--footer" href="#">Contacto</a>
+            <a class="nav__items nav__items--footer" href="#">Nosotros</a>
+        </nav>
+    </div>
+    <section class="footer__contact">
+        <h3 class="footer__title">Contáctanos</h3>
+        <div class="footer__icons">
+            <span class="footer__container-icons">
+                <a class="fab fa-linkedin footer-icon" href="https://www.linkedin.com/company/77347677/"></a>
+            </span>
+            <span class="footer__container-icons">
+                <a class="fab fa-twitter-square footer-icon" href="https://mobile.twitter.com/ProactivoF"></a>
+            </span>
+            <span class="footer__container-icons">
+                <a class="fab fa-facebook-square footer-icon" href="https://www.facebook.com/proactivosoluciones"></a>
+            </span>
+            <span class="footer__container-icons">
+                <a class="fab fa-instagram-square footer-icon" href="https://www.instagram.com/proactivosoluciones/"></a>
+            </span>
+            <span class="footer__container-icons">
+                <a class="fab fa-whatsapp-square footer-icon" href="https://api.whatsapp.com/send?phone=573232858951&text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20cr%C3%A9ditos&source=&data=&app_absent="></a>
+            </span>
+            <span class="footer__container-icons">
+                <a class="fas fa-envelope-square footer-icon" href="info@proactivosoluciones.com"></a>
+            </span>
+            <span class="footer__container-icons">
+                <a class="fas fa-map-marker-alt footer-icon" href="https://www.google.es/maps/place/Cl.+17+%23%236-57,+Bogot%C3%A1/@4.6032904,-74.0743623,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f99a1683cf37b:0xf073d68d66de6520!8m2!3d4.6032851!4d-74.0721736?hl=es"></a>
+            </span>
+        </div>
+    </section>
+    </div>
+    <p class="copyrigth">Todos los derechos reservados 2021</p>
+</footer>
+<script src="/js/nav.js"></script>
+<script src="https://kit.fontawesome.com/5fe212c36c.js" crossorigin="anonymous"></script>
+</body>
+</html>

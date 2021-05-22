@@ -1,0 +1,193 @@
+
+@media screen and (max-width: 800px){
+    :root{
+        --boton-padding: 15px 40px;
+    }
+    .container{
+        padding: 40px 0;
+    }
+    .nav{
+        justify-content: space-around;
+    }
+    .nav__items{
+        font-weight: 400;
+        border-bottom: 1px solid #fff;
+        margin-right: 0;
+        border-radius: 0;
+    }
+    .hero__text{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .hero__title{
+        font-size: 2.2rem;
+    }
+    .hero__subtitle{
+        font-size: 1.7rem;
+    }
+    .hero__wave{
+        bottom: -1px;
+    }
+    .presentation__copy{
+        width: 100%;
+    }
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about .container{
+        padding-top: 30px;
+    }
+    .about__img--left{
+        text-align: center;
+        margin-left: 0;
+    }
+    .about__text:last-child{
+        grid-row: 3/4;
+    }
+    /* CONTACTO */
+    .contacto{
+        height: 110vh;
+    }
+    .formulario{
+        width: 360px;
+        height: auto;
+    }
+
+    /* TESTIMONY */
+    .testimony__grid{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    /* FOOTER  */
+    .footer__grid{
+        grid-template-columns: 1fr;
+    }
+    .footer__contact{
+        grid-row: 1/2;
+    }
+}
+@media screen and (max-width: 500px){
+    :root{
+        --boton-padding: 13px 35px;     
+    }
+    .container{
+        padding: 40px 0;
+    }
+    .subtitle{
+        font-size: 1.9rem;
+        margin-bottom: 20px;
+    }
+    .nav__logo{
+        left: 9px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        /* top: -100%; */
+        left: 0;
+        background: linear-gradient(135deg, #1e272eaf 0%, #0e1013c6 100%);
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav a{
+        padding: 20px 100px;
+        margin: 10px;
+    }
+    .nav__items{
+        padding: 0 10px;
+        border: 0;
+    }
+    .hero__text{
+       text-align: left;
+       margin-bottom: 0px; 
+    }
+    .hero__title{
+        font-size: 2rem;
+    }
+
+    /* ABOUT */
+    .presentation__picture{
+        width: 120px;
+        height: 120px;
+    }
+    .about{
+        row-gap: 60px;
+    }
+    .about .container{
+        padding-top: 10px;
+    }
+    /* CONTACTO */
+    .contacto{
+        width: 100%;
+        height: 100vh;
+    }
+    .formulario{
+        background: none;
+        box-shadow: none;
+        width: 95%;
+        height: auto;
+    }
+    .formulario input{
+        padding: 10px;
+    }
+    select{
+        padding: 10px 30px;
+        margin: 5px 10px;
+    }
+    #actividad{
+        font-size: inherit;
+    }
+    .politica__pribacidad{
+        display: flex;
+    }
+
+    /* TESTIMONIO */
+    .testimony__item{
+        padding: 30px 15px;
+    }
+    .testimony__text{
+        text-align: center;
+    }
+    .testimony__person{
+        flex-direction: column;
+    }
+    .testimony__img{
+        width: 120px;
+        height: 120px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    /* FOOTER  */
+    /* .footer{
+        box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.70);
+        -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.70);
+        -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.70);
+    } */
+    .footer__grid{
+        padding: 30px 0;
+    }
+    .nav--footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav--footer a{
+        padding: 10px;
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+    .footer__container-icons{
+        border: none;
+    }
+    .footer__title{
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+    .copyrigth{
+        font-size: 0.7rem;
+        text-align: center;
+        padding-top: 22px;
+        padding-bottom: 5px;
+    }
+}
